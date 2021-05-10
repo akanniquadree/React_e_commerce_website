@@ -1,0 +1,53 @@
+{
+  "name": "myfirstreacapp",
+  "proxy": "http://127.0.0.1:5000",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel ./src/e_commerce/index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/helper-module-imports": "^7.12.13",
+    "@reach/router": "^1.3.4",
+    "axios": "^0.21.1",
+    "babel-plugin-macros": "^3.0.1",
+    "babel-runtime": "^6.26.0",
+    "bootstrap": "^4.6.0",
+    "core-js": "^3.9.1",
+    "express": "^4.17.1",
+    "petfinder-client": "^1.0.2",
+    "react": "^17.0.1",
+    "react-alice-carousel": "^2.4.0",
+    "react-dom": "^17.0.1",
+    "react-icon": "^1.0.0",
+    "react-icons": "^4.2.0",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-slick": "^0.28.1",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^5.2.1",
+    "styled-components.macro": "^1.0.0",
+    "typescript": "^4.2.3",
+    "typescript-plugin-styled-components": "^1.4.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.14",
+    "@babel/core": "^7.12.13",
+    "@babel/node": "^7.13.13",
+    "@babel/preset-env": "^7.12.13",
+    "@babel/preset-react": "^7.12.13",
+    "@types/react-router-dom": "^5.1.7",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-styled-components": "^1.12.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "nodemon": "^2.0.7",
+    "parcel-bundler": "^1.12.4"
+  },
+  "description": ""
+}
