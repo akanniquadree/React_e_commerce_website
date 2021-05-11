@@ -4,10 +4,10 @@ import data from './data.js';
 const app = express();
 
 
-app.get("/api/products",  (req, res )=>{
+app.get("/api/product",  (req, res )=>{
     res.send(data.products);
 });
-console.log(data.products)
+// console.log(data.products)
 
 
 app.listen(5000, ()=>{
